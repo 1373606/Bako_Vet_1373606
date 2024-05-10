@@ -135,7 +135,7 @@ public class SurgeryInterface extends Application {
         String phone = phoneField.getText();
         // check for errors
         if (animalID.length() == 0 || Species.length() == 0 || animalName.length() == 0) {
-            displayAnimals.setText("You must enter the registration, maake and model of the animal");
+            displayAnimals.setText("You must enter the all the deatils  of the animal and owner");
         } else if (givenName.length() == 0 || surname.length() == 0) {
             displayAnimals.setText("You must enter both your given name and surname");
         } else // ok to add a Tenant
